@@ -148,7 +148,7 @@
           "type": "config",
           "name": "appsettings",
           "properties": {
-            "BlobPath": "https://mangunsaas.blob.core.windows.net/images-sa/",
+            "BlobPath": "",
             "ConnectionTimeOut": "30",
             "DatabasePassword": "P@ssword1",
             "DatabaseServerPort": "1433",

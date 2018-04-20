@@ -23,8 +23,8 @@ param(
 $user = $user.ToLower() -replace '\s',''
 $path = (Get-Item -Path ".\" -Verbose).FullName + "\Templates"
 $resourceGroupName = "saas-sample-"+$user
-$DeploySaaSTemplateFile = "$path\Tenant1Params.json"
-$DeploySaaSParameterFile = "$path\SingleTenantEntTemplate.json"
+$DeploySaaSTemplateFile = "$path\SingleTenantDeploy.json"
+$DeploySaaSParameterFile = "$path\Tenant1.parameters.json"
 
 ## Register needed Azure Resource Providers
 $resourceProviders = @("microsoft.sql", "microsoft.web");

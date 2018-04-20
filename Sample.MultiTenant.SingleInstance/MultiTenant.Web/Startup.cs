@@ -51,8 +51,6 @@ namespace MultiTenant.Web
             var provider = services.BuildServiceProvider();
             _utilities = provider.GetService<IUtilities>();
             _tenantRepository = provider.GetService<ITenantRepository>();
-            //if (TenantServerConfig.ResetEventDates)
-            //    _utilities.ResetEventDates(GetTenantConnectionString());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
