@@ -29,12 +29,13 @@
     <None Include="Deployment.targets">
       <Visible>False</Visible>
     </None>
-    <None Include="Templates\Tenant1Params.json">
+    <None Include="Templates\Tenant1.parameters.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Templates\SingleTenantEntTemplate.json">
+    <None Include="Templates\SingleTenantDeploy.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Templates\Tenant2.parameters.json" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
