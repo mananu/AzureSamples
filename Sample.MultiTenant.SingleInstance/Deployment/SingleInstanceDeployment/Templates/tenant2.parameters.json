@@ -11,7 +11,7 @@
   },
   "variables": {
     "lowerCaseUser": "[toLower(parameters('user'))]",
-    "tenantName": "tenant1"
+    "tenantName": "tenant2"
   },
   "resources": [
     //{
